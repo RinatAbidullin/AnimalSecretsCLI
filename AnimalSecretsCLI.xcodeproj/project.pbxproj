@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		559F843027FB5328004A03B0 /* AnimalSecretsCLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AnimalSecretsCLI; sourceTree = BUILT_PRODUCTS_DIR; };
+		559F843027FB5328004A03B0 /* animalsecrets */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = animalsecrets; sourceTree = BUILT_PRODUCTS_DIR; };
 		559F843327FB5328004A03B0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		559F843127FB5328004A03B0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				559F843027FB5328004A03B0 /* AnimalSecretsCLI */,
+				559F843027FB5328004A03B0 /* animalsecrets */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,7 +79,7 @@
 			);
 			name = AnimalSecretsCLI;
 			productName = AnimalSecretsCLI;
-			productReference = 559F843027FB5328004A03B0 /* AnimalSecretsCLI */;
+			productReference = 559F843027FB5328004A03B0 /* animalsecrets */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -246,7 +246,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3CQ4XEPS9C;
 				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = animalsecrets;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -257,7 +257,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3CQ4XEPS9C;
 				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = animalsecrets;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
