@@ -5,7 +5,7 @@
 //  Created by Rinat Abidullin on 04.04.2022.
 //
 
+import ArgumentParser
 import Foundation
 
 print("Hello, World!")
-
