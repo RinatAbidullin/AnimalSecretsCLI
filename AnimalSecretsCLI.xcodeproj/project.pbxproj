@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		559F843427FB5328004A03B0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559F843327FB5328004A03B0 /* main.swift */; };
 		559F843C27FB5541004A03B0 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 559F843B27FB5541004A03B0 /* ArgumentParser */; };
+		559F843E27FB5974004A03B0 /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559F843D27FB5974004A03B0 /* Shell.swift */; };
+		559F844027FB5F2C004A03B0 /* CommandError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559F843F27FB5F2C004A03B0 /* CommandError.swift */; };
+		559F844527FC22CD004A03B0 /* AnimalSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559F844427FC22CD004A03B0 /* AnimalSecrets.swift */; };
+		559F844727FC22FD004A03B0 /* CredentialsGeneration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559F844627FC22FD004A03B0 /* CredentialsGeneration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +30,10 @@
 /* Begin PBXFileReference section */
 		559F843027FB5328004A03B0 /* animalsecrets */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = animalsecrets; sourceTree = BUILT_PRODUCTS_DIR; };
 		559F843327FB5328004A03B0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		559F843D27FB5974004A03B0 /* Shell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		559F843F27FB5F2C004A03B0 /* CommandError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandError.swift; sourceTree = "<group>"; };
+		559F844427FC22CD004A03B0 /* AnimalSecrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalSecrets.swift; sourceTree = "<group>"; };
+		559F844627FC22FD004A03B0 /* CredentialsGeneration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsGeneration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 			isa = PBXGroup;
 			children = (
 				559F843327FB5328004A03B0 /* main.swift */,
+				559F843D27FB5974004A03B0 /* Shell.swift */,
+				559F843F27FB5F2C004A03B0 /* CommandError.swift */,
+				559F844427FC22CD004A03B0 /* AnimalSecrets.swift */,
+				559F844627FC22FD004A03B0 /* CredentialsGeneration.swift */,
 			);
 			path = AnimalSecretsCLI;
 			sourceTree = "<group>";
@@ -128,7 +140,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				559F844727FC22FD004A03B0 /* CredentialsGeneration.swift in Sources */,
+				559F843E27FB5974004A03B0 /* Shell.swift in Sources */,
+				559F844527FC22CD004A03B0 /* AnimalSecrets.swift in Sources */,
 				559F843427FB5328004A03B0 /* main.swift in Sources */,
+				559F844027FB5F2C004A03B0 /* CommandError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

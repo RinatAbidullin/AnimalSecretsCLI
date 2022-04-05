@@ -8,4 +8,4 @@
 import ArgumentParser
 import Foundation
 
-print("Hello, World!")
+AnimalSecrets.main()
